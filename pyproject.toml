@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "scrapy bookscape spider"
+version = "0.1.0"
+description = "Scrapes Bookscape Website and loads data into a csv file."
+authors = ["Jack Perry <jack.e.perry@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.9"
+Scrapy = "^2.6.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
